@@ -1,0 +1,392 @@
+/* General body styling */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff97d7; /* Pink background as requested */
+}
+
+/* Navigation styling */
+.topsy {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    background-color: #E90074;
+    padding: 10px;
+}
+
+.topsy a {
+    text-decoration: none;
+}
+/* Container for both logo and buttons */
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between buttons and logo */
+    align-items: center;
+    background-color: #E90074;
+    padding: 10px;
+}
+
+/* Buttons aligned to the left */
+.topsy {
+    display: flex;
+}
+
+.topsy a {
+    text-decoration: none;
+}
+
+.topsy button {
+    background-color: palevioletred;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.topsy button:hover {
+    background-color: white;
+}
+
+/* Logo aligned to the right */
+.tops {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    height: 350px;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adding rounded corners for style */
+}
+
+#home img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30%;
+}
+
+/* Make the parent container use flexbox and align items vertically */
+.welcome {
+    display: flex;
+    flex-direction: column; /* Align children elements vertically */
+    justify-content: left; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Center the text */
+    margin: 20px;
+}
+
+/* Optional: Style the text content */
+.welcome h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px; /* Add space between paragraphs */
+    text-align: justify;
+    width: 70%;
+}
+
+/* Styling for icons */
+.welcome i{
+    margin-right: 10px;
+    color: #E90074; /* Match the brand color */
+    flex-direction: column;
+}
+
+
+
+
+
+
+/*ABOUT ME*/
+
+
+* {
+    margin: 0   ;
+    padding: 0;
+}
+
+.about-container {
+    display: flex;
+    width: 100%;  
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    background-color: #E90074;
+    color: white;
+    padding: 40px;
+    width: 20%;
+    text-align: center;
+}
+
+.left-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.left-section h2 {
+    font-size: 24px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%; /* Make sure it takes the full height of the container */
+    background-color: white;
+    
+}
+
+.right-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: center; /* Center align the text */
+    margin-bottom: 10px;
+    text-align: justify;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ab-container {
+    display: flex;
+    width: 100%;  
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.top-section h2 {
+    background-color: #E90074;
+    color: white;
+    padding: 40px;
+    width: 72.6%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+.next-section {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%; /* Make sure it takes the full height of the container */
+    background-color: white;
+}
+
+.next-section p{
+    font-size: 18px;
+    line-height: 2;
+    margin: 10px 0;
+    text-align: center; /* Center align the text */
+    margin-bottom: 10px;
+    text-align: justify;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+.a-container {
+    display: flex;
+    width: 100%;  
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.bottom-section {
+    width: 29.3%;
+}
+
+.bottom-section h2 {
+    background-color: #E90074;
+    color: white;
+    padding: 40px;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+.then-section {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%; /* Make sure it takes the full height of the container */
+    background-color: white;
+}
+
+.then-section p{
+    font-size: 18px;
+    line-height: 2;
+    margin: 10px 0;
+    text-align: center; /* Center align the text */
+    margin-bottom: 10px;
+    text-align: justify;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+/*--EDUCATION--*/
+
+.education-container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.first-section {
+    background-color: #ff97d7;
+    color: white;
+    padding: 40px;
+    width: 20.1%;
+    text-align: center;
+}
+
+.first-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.first-section h2 {
+    font-size: 24px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%; /* Make sure it takes the full height of the container */
+    background-color: white;
+}
+
+.second-section p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+
+.educ-container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.third-section {
+    background-color: #ff97d7;
+    color: white;
+    padding: 40px;
+    width: 20.1%;
+    text-align: center;
+}
+
+
+.third-section h2 {
+    font-size: 24px;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%; /* Make sure it takes the full height of the container */
+    background-color: white;
+}
+
+.fourth-section p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+
+.edu-container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.fifth-section {
+    background-color: #ff97d7;
+    color: white;
+    padding: 40px;
+    width: 20.1%;
+    text-align: center;
+}
+
+
+.fifth-section h2 {
+    font-size: 24px;
+}
+
+.sixth-section {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%; /* Make sure it takes the full height of the container */
+    background-color: white;
+}
+
+.sixth-section p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
