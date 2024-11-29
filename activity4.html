@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Curada's Portfolio</title>
+
+        <style>
+            /* General body styling */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink; /* Pink background as requested */
+}
+
+/* Navigation styling */
+.topsy {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    background-color: #E90074;
+    padding: 10px;
+}
+
+.topsy a {
+    text-decoration: none;
+}
+/* Container for both logo and buttons */
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between buttons and logo */
+    align-items: center;
+    background-color: #E90074;
+    padding: 10px;
+}
+
+/* Buttons aligned to the left */
+.topsy {
+    display: flex;
+}
+
+.topsy a {
+    text-decoration: none;
+}
+
+.topsy button {
+    background-color: palevioletred;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.topsy button:hover {
+    background-color: white;
+}
+
+/* Logo aligned to the right */
+.tops {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    height: 350px;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adding rounded corners for style */
+}
+
+#home img {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10%;
+}
+
+p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+        </style>
+    </head>
+    <body>
+    
+    <!--NAVIGATION-->
+    <div class="nav-container">
+        <div class="tops">
+            <a class="navbar-logo" id="logo"><img src="logo.png" width="100px"></a>
+        </div>
+        <div class="topsy">
+            <a class="nav-link-active" href="home.html">
+                <button>HOME</button>
+            </a>
+            <a class="nav-link-active" href="aboutme.html">
+                <button>ABOUT ME</button>
+            </a>
+            <a class="nav-link-active" href="education.html">
+                <button>EDUCATION</button>
+            </a>
+        </div>
+    
+    </div>
+    
+  
+
+    <!--HOME-->  
+    <section id="home">
+        <div class="top">
+            <img src="me.jpg" alt="PICTURE" width="25%">
+            
+        </div>
+        <p>TEXT</p>
+      </section>
+
+             
+    </body>   
+</html> 
+</DOCTYPE html>
